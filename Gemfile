@@ -10,6 +10,9 @@ gem "sprockets-rails"
 
 gem "slim-rails"
 
+# bulma css 
+gem "bulma-rails", "~> 1.0.0"
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
@@ -67,3 +70,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "dartsass-rails", "~> 0.5.0"
